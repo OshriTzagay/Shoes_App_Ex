@@ -12,6 +12,10 @@ namespace Re_Frameworks_Exs_ForTest.Controllers.api
 {
     public class SportShoesController : ApiController
     {
+
+        /// <summary>
+        /// Clean--> Code
+        /// </summary>
         public MyShoeStoreDBC DBC = new MyShoeStoreDBC();
         // GET: api/SportShoes
         public IHttpActionResult Get()
