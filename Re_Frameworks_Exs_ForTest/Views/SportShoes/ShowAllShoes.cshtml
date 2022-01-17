@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "ShowAllShoes";
+}
+
+@{ foreach (var shoe in Model)
+    {
+        <h1>@shoe.ShoeCompany</h1>
+        <li>@shoe.Brand</li>
+        <li>@shoe.Size</li>
+        <li>@shoe.Price</li>
+
+    }}
+
